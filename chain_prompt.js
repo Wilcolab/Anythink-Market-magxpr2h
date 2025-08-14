@@ -2,7 +2,7 @@
  * Converts a given string to kebab-case.
  * Handles basic cases: spaces and underscores to dashes, all lowercase.
  * Handles edge cases: multiple consecutive separators, camelCase, PascalCase, snake_case, kebab-case.
- * Returns an empty string for non-string or empty inputs.
+ * Returns an empty string for non-string or empty inputs.....
  *
  * @param {string} input - The string to convert.
  * @returns {string} The kebab-case version of the input string.

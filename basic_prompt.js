@@ -1,6 +1,6 @@
 /**
  * Converts a given string to camelCase.
- * Words can be separated by spaces, dashes, or underscores.
+ * Words can be separated by spaces, dashes, or underscores.....
  *
  * Example:
  *   toCamelCase('hello world')        // returns 'helloWorld'

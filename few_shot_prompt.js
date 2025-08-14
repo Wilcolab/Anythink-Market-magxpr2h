@@ -5,7 +5,7 @@ function toCamelCase(str) {
         .replace(/^[A-Z]/, chr => chr.toLowerCase());
 }
 
-// Example usage:
+// Example usage....
 console.log(toCamelCase('first name'));      // firstName
 console.log(toCamelCase('user_id'));         // userId
 console.log(toCamelCase('SCREEN_NAME'));     // screenName
