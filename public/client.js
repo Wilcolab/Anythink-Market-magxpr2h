@@ -21,6 +21,12 @@ function calculate(operand1, operand2, operation) {
 
     // TODO: Add operator
     switch (operation) {
+        case null:
+        case undefined:
+            setError();
+            return;
+    }
+    switch (operation) {
         case '+':
             uri += "?operation=add";
             break;
